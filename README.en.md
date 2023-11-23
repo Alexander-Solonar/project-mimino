@@ -1,60 +1,58 @@
-# Project News
+# MIMINO Hotel-Restaurant
 
-This project is a collaborative effort aimed at creating an application for
-viewing and searching news with the ability to save articles for later reading.
-The application also includes a weather widget and a feature to choose between
-light and dark themes for user convenience.
+Welcome to the repository of the "MIMINO" Hotel-Restaurant project! This
+collaborative effort aims to create a responsive website with slides, modal
+windows, and a team of developers working together. As a developer on the team,
+my role includes handling the layout of the main page, adding local fonts to the
+project, fixing errors, and participating in code reviews.
 
-## Technologies
+## Technologies Used
 
-### The project utilizes the following technologies:
+The project utilizes the following technologies:
 
-- **JavaScript (JS):** Programming language for implementing the application's
-  functionality and user interaction.
-- **REST API:** Used for retrieving and sending data to the server.
-- **Parsel:** Library for processing HTML and XML data, can be used for
-  efficient parsing and data handling.
-- **HTML:** Markup language for creating the structure and appearance of web
-  pages.
-- **SASS:** CSS preprocessor that allows the use of variables, nested styles,
-  and other enhancements for easier style development.
+- **HTML:** Used for creating the structure of the web pages.
+- **SASS:** CSS preprocessor for styling, allowing the use of variables and
+  making style development more efficient.
+- **JS (JavaScript):** Programming language for implementing dynamic
+  functionality on the website.
+- **Parsel:** Library for processing HTML and XML data, enhancing data parsing
+  capabilities.
 
-## Functionality
+## Features
 
-- **View and search for news:** Users can browse and search for news using the
-  application.
-- **Save articles:** There is an option to save selected articles for later
-  viewing.
-- **Weather widget:** Users can check the current weather directly within the
-  application.
-- **Light or dark theme:** The application supports choosing between a light or
-  dark theme to meet user preferences and ensure comfortable viewing.
+- **Responsive Design:** The website is designed to be responsive, ensuring a
+  seamless user experience across various devices.
+- **Slides:** Incorporation of slides to enhance visual appeal and provide an
+  interactive element.
+- **Modal Windows:** Modal windows are included for additional interactivity and
+  content display.
 
 ## Role: Developer
 
-I, Alexander Solonar, am responsible for the development of the following
-features and components:
+As a developer on the team, my responsibilities include:
 
-1. **Server requests:** Development and execution of server requests to obtain
-   news and save articles.
-2. **News search function:** Development of the news search functionality for
-   user convenience.
-3. **Filter block:** Creation of an interface for filtering and sorting news.
-4. **Code review:** Reviewing and evaluating code from other team members to
-   ensure the quality and stability of the application.
+- **Layout of the Main Page:** Creating the structure and layout of the main
+  page to ensure a visually appealing and user-friendly design.
+- **Adding Local Fonts:** Integration of local fonts into the project to enhance
+  the typography and overall aesthetic.
+- **Error Fixes:** Identifying and resolving any issues or errors in the code to
+  maintain a smooth user experience.
+- **Code Review:** Participating in code reviews to ensure code quality,
+  identify improvements, and maintain project standards.
 
-## Installation and Running Instructions
+## Getting Started
+
+To get started with the project, follow these steps:
 
 1. Clone the repository using the command:
-   `git clone https://github.com/Alexander-Solonar/project-news.git`.
-2. Open the project in your favorite code editor.
-3. Run the application on a local server.
-4. Open a browser and navigate to `http://localhost:your-port`, where
-   `your-port` is the port of your local server.
-
-**Enjoy using the application!**
+   `git clone https://github.com/Alexander-Solonar/project-mimino.git`.
+2. Open the project in your preferred code editor.
+3. Run the website locally or deploy it to a web server.
+4. Explore the features and functionalities of the MIMINO Hotel-Restaurant
+   website.
 
 ## Contribution
 
-If you have ideas for improvement or have identified any issues, please create a
-new Pull Request. We are always open to new ideas and enhancements.
+If you have ideas for improvement, encounter issues, or wish to contribute,
+please feel free to create a Pull Request. We welcome collaboration and
+continuous improvement.
