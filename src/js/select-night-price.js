@@ -4,8 +4,7 @@ const containerQuantityNight = document.querySelector(
 const selectNight = document.querySelector('#select-night');
 const inputNight = document.querySelector('#input-night');
 const optionsNight = document.querySelectorAll('.option-night');
-console.log(selectNight);
-// console.log(inputNight);
+
 selectNight.onclick = () => {
   containerQuantityNight.classList.toggle('active');
 };

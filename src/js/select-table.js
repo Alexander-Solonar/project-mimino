@@ -11,15 +11,10 @@ selectTable.onclick = () => {
 
 optionsPerson.forEach(e => {
   e.addEventListener('click', () => {
-    inputTable.value = e.innerText;
-    containerQuantityPerson.classList.remove('active');
-    optionsPerson.forEach(e => {
-      e.classList.remove('selected');
-    });
-    e.classList.add('selected');
+    makeСhoice(containerQuantityPerson, inputTable, optionsPerson, e);
   });
 });
-/////////////////////////////////////////////////////
+
 const containerDateReservation = document.querySelector(
   '#container-date-reservation'
 );
@@ -35,11 +30,20 @@ selectDateReservation.onclick = () => {
 
 optionsDateReservation.forEach(e => {
   e.addEventListener('click', () => {
-    inputDateReservation.value = e.innerText;
-    containerDateReservation.classList.remove('active');
-    optionsDateReservation.forEach(e => {
-      e.classList.remove('selected');
-    });
-    e.classList.add('selected');
+    makeСhoice(
+      containerDateReservation,
+      inputDateReservation,
+      optionsDateReservation,
+      e
+    );
   });
 });
+
+function makeСhoice(container, input, options, e) {
+  input.value = e.innerText;
+  container.classList.remove('active');
+  options.forEach(e => {
+    e.classList.remove('selected');
+  });
+  e.classList.add('selected');
+}
